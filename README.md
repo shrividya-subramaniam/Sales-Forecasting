@@ -40,4 +40,4 @@ Discount | If discount is offered by the store on the given date, Yes/No
 The evaluation metric used is (**mean squared log error**) MSLE*1000. 
 
 ## Approach
-To predict the total sale for each store, linear regression, XGBoost and LightGBM models are tried. All the models are able to explain the patterns in the data with MSLE values ranging from 0.0219 to 0.02209. However, XGBoost model outperforms the linear regression and LightGBM model with a better MSLE value of 0.0219. Therefore, XGBoost model is used to predict the Sales values in the test data. 
+To predict the total sale for each store, linear regression, XGBoost and LightGBM models are tried. All the models are able to explain the patterns in the data with MSLE values ranging from 0.0219 to 0.02209. However, XGBoost model outperforms the linear regression and LightGBM model with a better MSLE value of 0.0219 during model evaluation. Therefore, XGBoost model is used to predict the Sales values in the test data. In the private leaderboard, the model achieved a score of 0.02127.
