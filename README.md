@@ -1,4 +1,4 @@
-# Supplement-Sales-Prediction
+# Sales-Forecasting
 Solution to Analytics Vidhya Job-a-thon September 2021. This notebook achieved 15th rank in the private leaderboard.
 
 ## Problem Statement
