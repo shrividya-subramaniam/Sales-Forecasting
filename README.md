@@ -1,5 +1,7 @@
 # Sales-Forecasting
 Solution to Analytics Vidhya Job-a-thon September 2021. This notebook achieved 15th rank in the private leaderboard.
+![image](https://user-images.githubusercontent.com/58010969/143678730-9e4ed222-86fe-4544-a38b-db3846d2d497.png)
+
 
 ## Problem Statement
 WOMart is a leading nutrition and supplement retail chain that offers a comprehensive range of products for all your wellness and fitness needs. The retail chain follows a multi-channel distribution strategy with 350+ retail stores spread across 100+ cities.
@@ -36,8 +38,19 @@ Date | Information about the date
 Holiday | If there is holiday on the given date, 1: Yes, 0: No
 Discount | If discount is offered by the store on the given date, Yes/No
 
+## Data Pre-processing
+- Day, day of the week, month, year and weekend features are extracted from the Date column. 
+- Categorical Columns like Store Type, Location Type, Region Code and Discount are encoding using one-hot encoding (pd.get_dummies). 
+- The Store Id is a column with high cardinality with 365 unique values. Hence, it is encoded with target encoding as label encoding and one-hot encoding are unsuitable. 
+
+### Feature Generation
+The following features are generated.
+1. 'Holiday_weekend’ and 'Holiday_weekday’-for holiday on a weekend and holiday on a weekday. These are useful as sales tends to be higher on holidays. 
+2. 'Dateinbetween25and5’- whether the day of sale falls between 25th of the previous month and 5th of the following month. This is the time period when people receive their salaries. Therefore, buying will be higher in this period. 
+
+
 ## Evaluation Metric
-The evaluation metric used is (**mean squared log error**) MSLE*1000. 
+The competition evaluation metric used is (**mean squared log error**) MSLE*1000. 
 
 ## Approach
 To predict the total sale for each store, linear regression, XGBoost and LightGBM models are tried. However, XGBoost model outperforms the linear regression and LightGBM model with a better MSLE value during model evaluation. Therefore, XGBoost model is used to predict the sales values in the test data. In the private leaderboard, the model achieved a score of 0.2127.
