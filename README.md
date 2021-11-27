@@ -1,6 +1,8 @@
 # Sales-Forecasting
 Solution to Analytics Vidhya Job-a-thon September 2021. This notebook achieved 15th rank in the private leaderboard.
-![image](https://user-images.githubusercontent.com/58010969/143678730-9e4ed222-86fe-4544-a38b-db3846d2d497.png)
+
+![image](https://user-images.githubusercontent.com/58010969/143678814-6ee912c8-1eac-4e08-90eb-76ab74d56da1.png)
+
 
 
 ## Problem Statement
