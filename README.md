@@ -58,6 +58,6 @@ The competition evaluation metric used is (**mean squared log error**) MSLE*1000
 To predict the total sale for each store, linear regression, XGBoost and LightGBM models are tried. However, XGBoost model outperforms the linear regression and LightGBM model with a better MSLE value during model evaluation. Therefore, XGBoost model is used to predict the sales values in the test data. 
 
 ## Leaderboard
-!Public Leaderboard(https://datahack.analyticsvidhya.com/contest/job-a-thon-september-2021/#LeaderBoard):19th Rank
-!Private Leaderboard(https://datahack.analyticsvidhya.com/contest/job-a-thon-september-2021/#LeaderBoard):15th Rank
+[Public Leaderboard](https://datahack.analyticsvidhya.com/contest/job-a-thon-september-2021/#LeaderBoard):19th Rank
+[Private Leaderboard](https://datahack.analyticsvidhya.com/contest/job-a-thon-september-2021/#LeaderBoard):15th Rank
 
