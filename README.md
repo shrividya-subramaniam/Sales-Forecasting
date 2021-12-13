@@ -1,9 +1,5 @@
 # Sales-Forecasting
-Solution to Analytics Vidhya Job-a-thon September 2021. This notebook achieved 15th rank in the private leaderboard.
-
-![image](https://user-images.githubusercontent.com/58010969/143678814-6ee912c8-1eac-4e08-90eb-76ab74d56da1.png)
-
-
+Solution to Analytics Vidhya Job-a-thon September 2021. 
 
 ## Problem Statement
 WOMart is a leading nutrition and supplement retail chain that offers a comprehensive range of products for all your wellness and fitness needs. The retail chain follows a multi-channel distribution strategy with 350+ retail stores spread across 100+ cities.
